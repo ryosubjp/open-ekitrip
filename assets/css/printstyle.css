@@ -1,0 +1,156 @@
+
+.print-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #faebe9;
+}
+
+.print-end h2{
+    font-size: 20px;
+    color: #D25D5F;
+}
+
+.print-end button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 60px;
+    color: #fff;
+    background-color: #D25D5F;
+}
+
+@media print{
+    .print-end{
+        display: none;
+    }
+}
+
+.print-area{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 100svh;
+    padding: 40px 20px;
+}
+
+.small-view-map{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.small-view-map-all{
+    width: 90%;
+    height: 80svh;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+/*station-info*/
+
+.info{
+    padding: 0 20px;
+}
+
+.info-box a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.info-title{
+    margin: 50px 0 10px 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.info-title img{
+    margin-right: 5px;
+}
+
+.info-title p{
+    font-weight: bold;
+    color: #5F6368;
+}
+
+.transfer-btn{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+.transfer-btn div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.transfer-line-color{
+    width: 15px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 60px;
+    background-color: #E8E8E8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address div{
+    margin-right: 10px;
+}
+
+.address-text{
+    overflow: scroll;
+}
+
+.info-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8E8E8;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.info-btn p{
+    color: #5F6368;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.address-copy-btn{
+    width: 120px;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company a{
+    color: #5F6368;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}

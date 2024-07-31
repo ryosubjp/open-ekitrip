@@ -1,0 +1,166 @@
+.small-view-map{
+    height: 400px;
+}
+
+.hero-back-effect{
+    height: 400px;
+}
+
+.content-area{
+    margin-top: 300px;
+}
+
+.visit-card{
+    width: 90%;
+    max-width: 360px;
+    padding: 30px;
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(145, 148, 162, 1) 0%, rgba(217, 218, 223, 1) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.visit-card-userinfo{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: solid 1px #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visit-card p{
+    color: #fff;
+}
+
+.visit-station-count-disp{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.visit-station-count{
+    text-align: center;
+}
+
+.visit-level{
+    text-align: center;
+}
+
+.visit-level-gage{
+    width: 90%;
+}
+
+/*visit-timeline*/
+
+.visit-timeline-index{
+    margin: 20px 0;
+}
+
+.visit-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visit-title a{
+    font-size: 12px;
+    color: #3385d9;
+    text-decoration: none;
+}
+
+.visit-title div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit-title img{
+    width: 50px;
+}
+
+.visit-title p{
+    font-size: 13px;
+}
+
+.visit-day{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #F8F8F8;
+    color: #333333;
+}
+
+.visit-day p{
+    font-weight: 500;
+}
+
+.visit-station{
+    display: flex;
+    justify-content: right;
+}
+
+.visit-time{
+    padding-right: 10px;
+    color: #666666;
+}
+
+.visit-station-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    border-radius: 15px 0 0 15px;
+    background-color: #F7F7F5;
+}
+
+.visit-station-info div{
+    width: 90%;
+}
+
+.visit-station-info p{
+    font-size: 12px;
+}
+
+.visit-memo{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.visit-timeline-line{
+    width: 5px;
+    height: 10px;
+    margin: 0 auto;
+    background-color: #d9d9d8;
+}
+
+.visit-history-none {
+    min-height: 300px;
+    margin-top: 30px;
+}
+
+.visit-history-none p{
+    color: #666666;
+}
+
+.visit-info-open{
+    color: #4ba2e6;
+}
+
+.visit-history-none{
+    text-align: center;
+}
+
+.visit-history-none img{
+    width: 100px;
+}
+
+.visit-history-none h1{
+    font-size: 20px;
+    color: #3385d9;
+}

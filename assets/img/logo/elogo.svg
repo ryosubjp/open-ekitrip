@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="elogo" transform="matrix(0.43054,0,0,0.43054,5,6.27981)">
+        <rect x="0" y="0" width="1834.9" height="1828.96" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="0" y="0" width="1834.9" height="1828.96"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g id="parts2" transform="matrix(0.202617,0,0,0.202318,0,0)">
+                <path d="M4528,-8C6563,-8 8285,1331 8859,3174L8904,3349L8891,3334C8645,3088 8305,2936 7929,2936L5405,2936L5393,2928C5136,2788 4841,2709 4528,2709C3526,2709 2714,3520 2714,4520C2714,5521 3526,6332 4528,6332L5435,6332C6186,6332 6796,6940 6796,7690C6796,8440 6186,9048 5435,9048L4528,9048C4481,9048 4434,9046 4389,9041L4064,9025C1777,8793 -8,6865 -8,4520C-8,2020 2023,-8 4528,-8Z" style="fill:rgb(128,130,140);"/>
+            </g>
+            <g id="parts1" transform="matrix(0.202617,0,0,0.202318,0,0)">
+                <path d="M3160,4520C3160,3769 3769,3160 4520,3160L7688,3160C8440,3160 9048,3769 9048,4520C9048,5272 8440,5880 7688,5880L4520,5880C3769,5880 3160,5272 3160,4520Z" style="fill:rgb(91,155,213);"/>
+            </g>
+        </g>
+    </g>
+</svg>

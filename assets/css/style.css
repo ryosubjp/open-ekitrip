@@ -1,0 +1,288 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p,
+label,
+form,
+select,
+option,
+input{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/*beta用*/
+body{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero,.hero-back,.hero-search,.navi-bar,.header,.content-area,.station-info,.small-view-map,.modal-content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.beta-info{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #fbfac6d0;
+    border: solid 1px #f0d11f;
+}
+
+.beta-info p{
+    font-size: 13px;
+    font-weight: bold;
+    color: #c1900d;
+}
+
+.beta-info span{
+    font-size: 13px;
+}
+
+@media screen and (max-width: 600px) {
+    .beta-info span{
+        display: none;
+    }
+}
+
+/*modal*/
+/* モーダルの背景 */
+
+.modal-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title h2{
+    font-size: 18px;
+}
+
+.modal {
+    display: none; /* デフォルトでは表示しない */
+    position: fixed; /* 画面に固定 */
+    z-index: 1000; /* 前面に表示 */
+    left: 0;
+    top: 0;
+    width: 100%; /* 画面全体をカバー */
+    height: 100%; /* 画面全体をカバー */
+    transition-duration: 500ms;
+    overflow: auto; /* 必要に応じてスクロール */
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明の黒背景 */
+}
+
+/* モーダルの内容 */
+.modal-content {
+    width: 90%;
+    max-height: 90vh;
+    background-color: #F7F7F5;
+    margin: 0 auto;
+    padding: 30px 20px;
+    border: 1px solid #888;
+    border-radius: 30px;
+    position: relative;
+    overflow: auto;
+}
+
+.modal-back{
+    width: 100%;
+    height: 100svh;
+    overflow: scroll;/* 必要に応じてスクロール */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* 閉じるボタン */
+.close-btn {
+    margin-bottom: 10px;
+}
+
+
+/*header*/
+.header{
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.station-header{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9305847338935574) 15%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.header-logo {
+    width: 30px;
+}
+
+.header-search{
+    width: 100px;
+    height: 40px;
+    border-radius: 180px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1); /* 半透明の白色 */
+    backdrop-filter: blur(10px); /* 背景をぼかす */
+    -webkit-backdrop-filter: blur(10px); /* Safari用のバックドロップフィルタ */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* 薄い白色の枠線 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 薄い影 */
+}
+
+.header-search img{
+    width: 18px;
+    margin-right: 5px;
+}
+
+.header-search p{
+    font-size: 12px;
+    color: #80828C;
+}
+
+/*navi*/
+
+.navi-bar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navi-bar-btn{
+    width: 70px;
+    display: block;
+    text-align: center;
+}
+
+.navi-bar-btn{
+    text-decoration: none;
+}
+
+.navi-bar-btn img{
+    width: 18px;
+}
+
+.navi-bar-btn p{
+    font-size: 12px;
+    color: #333333;
+}
+
+.footer{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #F7F7F5;
+}
+
+.footer p{
+    font-size: 10px;
+    color: #666666;
+}
+
+.credit p{
+    font-size: 12px;
+}
+
+
+.browser-alert{
+    display: none;
+    background-color: #fef5c7;
+    border: solid 1px #fac825;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.browser-alert button{
+    padding: 15px 25px;
+    background-color: #fdeb8a;
+    border-radius: 60px;
+}
+
+.browser-alert-text{
+    margin-bottom: 10px;
+}
+
+.browser-alert-text span{
+    font-size: 12px;
+    color: #888;
+}
+
+/*fast-access-modal*/
+
+.fast-access-title{
+    text-align: center;
+}
+
+.fast-access-title h2{
+    color: #333333;
+}
+
+.fat-url{
+    color: #2E86DE;
+}
+
+.fast-access-function-card{
+    padding: 20px 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.fast-access-function-card-img img{
+    width: 50px;
+    margin: 0 10px;
+}
+
+.fast-access-function-card h5{
+    font-size: 12px;
+    color: #666666;
+}
+
+.fast-access-modal-close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    font-weight: bold;
+    background-color: #2E86DE;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.text-with-lines {
+    padding: 30px 0 10px 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ccc;
+}
+        
+.text-with-lines::before,
+.text-with-lines::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 10px;
+}
+

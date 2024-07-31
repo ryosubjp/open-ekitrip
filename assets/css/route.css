@@ -1,0 +1,16 @@
+/*route*/
+
+.route-station-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 10px auto;
+    border-radius: 15px;
+    background-color: #F7F7F5;
+    padding: 20px;
+}
+
+.route-name{
+    font-size: 25px;
+}

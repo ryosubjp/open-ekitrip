@@ -1,0 +1,258 @@
+
+
+.hero{
+    width: 100%;
+    height: 280px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 20;
+}
+
+.hero-sv-title{
+    position: absolute;
+    z-index: 100;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.6) 60%, rgba(255, 255, 255, 0.09585084033613445) 85%);
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 50px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    /*font-weight: <weight>;*/
+    font-style: normal;
+}
+
+.hero span{
+    font-size: 18px;
+    color: #666666;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.hero-img-left{
+    width: 90px;
+    position: absolute;
+    top :160px;
+    left: 10px;
+}
+
+.hero-img-right{
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+.hero-back{
+    width: 100%;
+    height: 350px;
+    position: fixed;
+    z-index: 10;
+}
+
+.hero-back-effect{
+    width: 100%;
+    height: 350px;
+    position: fixed;
+    z-index: 10;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0.9) 20%, rgba(255, 255, 255, 0.9) 100%);
+}
+
+.small-view-map {
+    width: 100%;
+    height: 350px;
+    z-index: 0;
+}
+
+.title-logo{
+    width: 100%;
+}
+
+.hero-search{
+    width: 100%;
+    padding: 0 10px;
+    position: absolute;
+    z-index: 30;
+    padding-top: 280px;
+}
+
+.search-input{
+    width: 100%;
+    height: 80px;
+    font-size: 15px;
+    background-color: #fff;
+    line-height: 1;
+    border-radius: 30px;
+    border: solid 3px #2E86DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input input{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+}
+
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-btn-img{
+    width: 30px;
+    margin: 0 10px;
+}
+
+.search-option{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.search-option-btn{
+    height: 60px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    text-decoration: none;
+}
+
+.search-map{
+    width: 65%;
+}
+
+.search-history{
+    width: 32%;
+}
+
+.search-option-btn p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    margin-left: 10px;
+    color: #5F6368;
+}
+
+/*content-area*/
+
+.content-area{
+    width: 100%;
+    position: absolute;
+    z-index: 30;
+    margin-top: 440px;
+    padding: 0px 10px 100px 10px;
+}
+
+.features-card{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.features-card-tag{
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF2C6;
+}
+
+.features-card-tag p{
+    font-weight: 500;
+    font-size: 14px;
+    color: #FEBB21;
+}
+
+.features-card img{
+    width: 100px;
+    padding: 10px 0;
+}
+
+.function-exp{
+    font-size: 12px;
+    margin: 10px 0;
+    color: #666666;
+}
+
+.try-function{
+    background-color: #2E86DE;
+    width: 170px;
+    height: 50px;
+    color: #fff;
+    border-radius: 60px;
+}
+
+.try-function-action{
+    background-color: #2E86DE;
+    padding: 10px 20px;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 60px;
+    font-size: 13px;
+}
+
+.post-search-input {
+    width: 100%;
+    margin: 10px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.post-search-btn {
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: #3385d9;
+    border-radius: 15px;
+}
+
+/*intro*/
+
+.intro-title{
+    text-align: center;
+}
+
+.intro-title img{
+    width: 100px;
+}
+
+.intro-title h2{
+    font-size: 20px;
+    color: #2E86DE;
+}
+
+.step-card{
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.step-no{
+    font-weight: bold;
+    color: #2E86DE;
+}
+
+.step{
+    padding-top: 35px;
+    text-align: center;
+}

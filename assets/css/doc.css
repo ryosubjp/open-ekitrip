@@ -1,0 +1,125 @@
+
+body{
+    background-color: #f6f6f6;
+}
+
+.doc-outframe{
+    padding: 80px 15px;
+}
+
+.doc-frame{
+    padding: 0 15px;
+}
+
+.doc-title{
+    font-size:25px;
+    padding-bottom: 15px;
+    color: #333333;
+}
+
+.doc-subtitle{
+    font-size: 10px;
+    color: #666666;
+}
+
+.doc-content{
+    margin-top: 30px;
+}
+
+.step-card{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.step-call{
+    font-weight: bold;
+    color: #3c83cf;
+}
+
+.step-card h4{
+    font-size: 12px;
+    color: #666666;
+}
+
+.step-next{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.content-title{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: #7fb8f5;
+}
+
+/*独自*/
+
+.breadcrumb-list{
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+
+.userguide-hero h1{
+    font-size: 30px;
+}
+
+.userguide-hero span{
+    font-size: 20px;
+}
+
+.userguide-hero h2{
+    font-size: 15px;
+}
+
+.caution-text{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.step-card-img{
+    width: 100%;
+}
+
+.utilize{
+    margin: 20px auto;
+}
+
+.utilize-list{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.utilize-list-card{
+    flex-shrink: 0;
+    width: 180px;
+    height: 200px;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.utilize-list-card img{
+    width: 50px;
+}
+
+.utilize-list-card h3{
+    font-size: 15px;
+}
+
+.utilize-list-card h5{
+    font-size: 10px;
+    color: #666666;
+}
+
+
+
